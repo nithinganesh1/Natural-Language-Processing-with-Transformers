@@ -38,7 +38,7 @@ This framework is crucial for tasks like machine translation, where an input seq
 
 * **Job**: To take the context vector from the encoder and generate the output sequence word-by-word (e.g., the German translation "Anime", "ist", "gut!").
 * **Process**: It's another RNN that uses the context to predict the next word at each step.
-img[https://github.com/nithinganesh1/Natural-Language-Processing-with-Transformers/blob/main/images/encoder-decoder.png]
+![Encoder-Decoder Architecture](https://github.com/nithinganesh1/Natural-Language-Processing-with-Transformers/blob/main/images/encoder-decoder.png)
 ---
 
 ### ⚠️ The Bottleneck Problem
