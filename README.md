@@ -49,20 +49,13 @@ The classic Seq2Seq architecture has a significant weakness: the **information b
 * For long sequences, **early input information is often lost**.
 * The decoder only has access to this compressed, and potentially incomplete, summary.
 
----
-
-## 2. ✨ The Solution: Attention
-
-### 📈 What is Attention?
+What is Attention?
 
 A mechanism that allows the decoder to access **all of the encoder's hidden states** (one for each input word), not just the last one.
-
-### ✅ How It Helps
+How It Helps
 
 * During decoding, attention lets the model **focus on relevant parts of the input** for each word it generates.
 * It removes the dependency on a single, compressed context vector.
 * This was a **critical advancement** toward the Transformer architecture.
 
 ---
-
-Stay tuned for the next section: **Understanding Attention in Depth** →
