@@ -59,3 +59,51 @@ How It Helps
 * This was a **critical advancement** toward the Transformer architecture.
 
 ---
+
+
+## 2. ✨ Attention Mechanisms
+
+### 🧠 Core Idea
+
+Instead of producing a single hidden state, attention allows the encoder to output a hidden state for **each input token**. The decoder can then access these states and decide which ones are most relevant at each output timestep.
+
+### 🎯 How Attention Works
+
+* The decoder **does not use all encoder states equally**.
+* It assigns **attention weights** to each hidden state depending on the relevance to the current output prediction.
+* These weights determine how much attention is paid to different input tokens at every step.
+
+> For example: In a translation task from English to French, the model might align "zone" to "Area" even though they appear in different positions. This dynamic weighting creates **nontrivial alignments** between source and target words.
+![Attention Weights Visualization](https://raw.githubusercontent.com/nithinganesh1/Natural-Language-Processing-with-Transformers/main/images/wight_corr.png)
+
+### ⛓ Limitation of RNN-based Attention
+
+Even with attention, **recurrent models are still sequential**:
+
+* They cannot process all input tokens in parallel.
+* Training takes longer due to step-by-step processing.
+
+---
+
+## 🚀 A Breakthrough: Self-Attention and Transformers
+
+To address the limitations of sequential computation:
+
+* Transformers remove recurrence **entirely**.
+* They rely on **self-attention**, which allows each token to attend to **every other token** in the sequence.
+
+### 🔗 What is Self-Attention?
+
+* A form of attention that operates **within the same layer**.
+* Used in both encoder and decoder layers.
+
+### ⚡ Why It Matters
+
+* Enables **parallel computation**.
+* Dramatically speeds up training.
+* Forms the **core of the Transformer** architecture.
+
+![Self-Attention Architecture](https://raw.githubusercontent.com/nithinganesh1/Natural-Language-Processing-with-Transformers/main/images/self_both_encoder_and_decoder.png)
+
+---
+
