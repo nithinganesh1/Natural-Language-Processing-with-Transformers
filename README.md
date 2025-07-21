@@ -75,7 +75,7 @@ Instead of producing a single hidden state, attention allows the encoder to outp
 
 > For example: In a translation task from English to French, the model might align "zone" to "Area" even though they appear in different positions. This dynamic weighting creates **nontrivial alignments** between source and target words.
 
-![Attention Weights Visualization](https://github.com/nithinganesh1/Natural-Language-Processing-with-Transformers/blob/main/images/self_both_encoder_and_decoder.png)
+![Attention Weights Visualization](https://github.com/nithinganesh1/Natural-Language-Processing-with-Transformers/blob/main/images/weight_corr.png)
 
 ### ⛓ Limitation of RNN-based Attention
 
