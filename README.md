@@ -191,7 +191,7 @@ def compute_metrics(pred):
 
 ---
 
-## 18) Minimal reporting checklist
+## 18) Minimal checklist needs to be noted
 
 * [ ] Dataset & splits described (size per split).
 * [ ] Tokenizer + `max_length` used.
