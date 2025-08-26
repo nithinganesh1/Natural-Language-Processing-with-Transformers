@@ -210,9 +210,3 @@ def compute_metrics(pred):
 * Use Trainer + `compute_metrics` for fast experiments and checkpointing.
 
 ---
-
-## 20) If you want a one‑page cheat sheet
-
-I can export the above headings as a single‑page printable cheat sheet or convert to a Markdown summary suitable for a README. Let me know which format.
-
-*End of document.*
