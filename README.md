@@ -1,6 +1,8 @@
-Text Classification
+# Text Classification
 
 Concise, high‑value points covering the entire Chapter 2 from *Natural Language Processing with Transformers (Revised Edition)*. Focus: concepts, structure, preprocessing, modeling choices, evaluation, and extensions. Not runnable code — just the structure and why each step matters.
+
+if you want the sample working code go here: https://github.com/nithinganesh1/Natural-Language-Processing-with-Transformers/blob/main/2Text_Classification.ipynb
 
 ---
 
